@@ -19,7 +19,7 @@
             for(let i = 0; i < 34; i++){
                 //final simplified - may need to adjust time delay depending on missing searches
                 let searchURL = "https://bing.com/search?q=" + i.toString();
-                setTimeout(function(){window.open(searchURL, '_blank');}, i * 1500);
+                setTimeout(function(){open(searchURL, '_blank');}, i * 1500);
 
                 //this was version 2 without IIFE
                 // function searcher(){
